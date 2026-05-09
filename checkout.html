@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Elprimo - Checkout</title><link rel="stylesheet" href="styles.css" /></head>
+<body>
+  <header class="nav"><a class="logo" href="index.html">Elprimo<span>Shop</span></a><nav><a href="index.html">Home</a><a href="product.html">Products</a><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a></nav></header>
+  <main class="narrow">
+    <h1>Checkout</h1>
+    <section class="checkout-grid">
+      <form class="form" id="checkoutForm">
+        <h2>Shipping Details</h2>
+        <input required placeholder="Full name" />
+        <input required placeholder="Email address" type="email" />
+        <input required placeholder="Street address" />
+        <div class="two"><input required placeholder="City" /><input required placeholder="Postcode" /></div>
+        <h2>Payment</h2>
+        <input required placeholder="Card number" />
+        <div class="two"><input required placeholder="MM/YY" /><input required placeholder="CVC" /></div>
+        <button class="btn full" type="submit">Place Order</button>
+      </form>
+      <aside class="summary"><h2>Total</h2><p><span>Products</span><strong>$74.98</strong></p><p><span>Shipping</span><strong>$5.00</strong></p><hr><p><span>Pay now</span><strong>$79.98</strong></p></aside>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
